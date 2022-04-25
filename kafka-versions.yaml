@@ -129,6 +129,15 @@
   third-party-libs: 2.7.x
   supported: true
   default: false
+- version: 2.7.2
+  format: 2.7
+  protocol: 2.7
+  url: https://archive.apache.org/dist/kafka/2.7.2/kafka_2.12-2.7.2.tgz
+  checksum: 592B5EC0E5536AD7E673354F28DA4ECE1E1156AAFE3F9F5BFE0B380875AF821E42AB5BFAC6483B372F2A0B5634F93E3F0C1D93563AA87C8AFF130C7891986D74
+  zookeeper: 3.6.3
+  third-party-libs: 2.7.x
+  supported: true
+  default: true  
 - version: 2.8.0
   format: 2.8
   protocol: 2.8
@@ -137,4 +146,4 @@
   zookeeper: 3.5.9
   third-party-libs: 2.8.x
   supported: true
-  default: true
+  default: false
